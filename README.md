@@ -1,5 +1,5 @@
 # Express-Sample-Site
-A sample site developed with Express.js
+A copypasta site developed with Express.js
 
 The code was taken from the Web Development with Node and Express book, as
-a learning exercise.
+a learning exercise, and subsequently modified to output pastas.
