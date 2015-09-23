@@ -13,6 +13,9 @@ header {
   text-align: center;
 }
 .row {
+  display: inline-block;
+  max-width: 95%;
   background: #d6d6d6;
-  padding: 20px 0;
+  margin: 15px 0;
+  padding: 20px;
 }
