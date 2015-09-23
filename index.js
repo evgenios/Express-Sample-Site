@@ -1,7 +1,7 @@
 const express = require('express');
 const handlebars = require('express-handlebars')
                   .create({defaultLayout: 'main'});
-const fortune = require('./lib/fortune');
+const copypasta = require('./lib/copypasta');
 const app = express();
 
 app.engine('handlebars', handlebars.engine);
@@ -12,12 +12,9 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
-  res.render('home', { fortune: fortune.getFortune() });
+  res.render('home', { pasta: copypasta.getPastas() });
 });
 
-app.get('/about', function(req, res) {
-  res.render('about', { fortune: fortune.getFortune() });
-});
 
 // 404 Response
 app.use(function(req, res) {
