@@ -1,0 +1,23 @@
+{
+  "name": "express-sample-site",
+  "version": "1.0.0",
+  "description": "A sample site made with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenios/Express-Sample-Site.git"
+  },
+  "author": "Evgenios Kastanias <eugenioska@gmail.com> (http://evgenios.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgenios/Express-Sample-Site/issues"
+  },
+  "homepage": "https://github.com/evgenios/Express-Sample-Site#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+  }
+}
