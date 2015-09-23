@@ -1,0 +1,18 @@
+#center_img {
+  height: 500px;
+  width: 378px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#center_text {
+  text-align: center;
+}
+.row {
+  background: #d6d6d6;
+  padding: 20px 0;
+}
