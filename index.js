@@ -28,7 +28,6 @@ app.use(function(req, res) {
   res.render('500');
 });
 
-
 app.listen(app.get('port'), function() {
   // console.log(`Express started on http://localhost.com:${app.get('port')}
   //   press Ctrl + C to exit`);
