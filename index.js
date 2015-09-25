@@ -24,7 +24,6 @@ app.use(function(req, res) {
 
 // 500 Response
 app.use(function(req, res) {
-  console.error(err.stack);
   res.status(500);
   res.render('500');
 });
